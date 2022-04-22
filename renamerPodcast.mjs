@@ -6,7 +6,7 @@ class Renamer{
         const oFile = path.parse(filePath);
 
 
-        const db = new sqlite3('/Users/ale/Music/podcast/MTLibrary.sqlite');
+        const db = new sqlite3('./testFiles/MTLibrary.sqlite');
 
         let sName;
 
