@@ -10,7 +10,7 @@ import path from "path";
  * - creation date in the form: 20221231
  * - 6 digits random number
  * */
-class renamerImg {
+class renamerImgRand {
     replace (filePath) {
         const oFile = path.parse(filePath);
 
@@ -29,4 +29,4 @@ class renamerImg {
     }
 }
 
-export default renamerImg;
+export default renamerImgRand;
