@@ -12,7 +12,26 @@ class Renamer{
 
         const sDay = oStats.birthtime.getDate().toString().padStart(2,'0');
 
-        const sRand = Math.round(Math.random()*1000000);
+        let sRand;
+
+        const regExpId = new RegExp(/IMG_(\d+)/,'i');
+        console.log(oFile.name);
+        const aMatched = regExpId.exec(oFile.name);
+        console.log(typeof aMatched);
+        console.log(typeof aMatched[1]);
+
+        if(aMatched[1] !== 'undefined'){
+
+            sRand = aMatched[1];
+
+        } else {
+
+            sRand = Math.round(Math.random()*1000000);
+
+        }
+
+
+        console.log(aMatched);
 
         const sNewName = 'IMG_' + oStats.birthtime.getFullYear() + sMonth + sDay + '_' + sRand + oFile.ext
 
