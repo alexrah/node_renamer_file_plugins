@@ -7,7 +7,7 @@ list of plugins:
 
 ## How to use plugins
 
-install dependencies
+install dependencies (required by testRenamerPodcast.mjs)
 
 `npm install`
 
@@ -17,6 +17,6 @@ navigate to folder where files need to be renamed:
 
 example:
 
-``npx renamer --chain ~/Projects/Personal/file_renamer/renamer_sqlite.mjs *``
+``npx renamer --chain ~/Projects/Personal/file_renamer/testRenamerPodcast.mjs *``
 
 @see [renamer](https://www.npmjs.com/package/renamer)
