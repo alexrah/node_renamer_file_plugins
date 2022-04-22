@@ -20,3 +20,5 @@ example:
 ``npx renamer --chain ~/Projects/Personal/file_renamer/testRenamerPodcast.mjs *``
 
 @see [renamer](https://www.npmjs.com/package/renamer)
+
+@see [better-sqlite3](https://github.com/JoshuaWise/better-sqlite3)
