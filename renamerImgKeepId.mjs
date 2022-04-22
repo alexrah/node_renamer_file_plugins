@@ -15,10 +15,10 @@ class Renamer{
         let sRand;
 
         const regExpId = new RegExp(/IMG_(\d+)/,'i');
-        console.log(oFile.name);
+        // console.log(oFile.name);
         const aMatched = regExpId.exec(oFile.name);
-        console.log(typeof aMatched);
-        console.log(typeof aMatched[1]);
+        // console.log(typeof aMatched);
+        // console.log(typeof aMatched[1]);
 
         if(aMatched[1] !== 'undefined'){
 
@@ -31,7 +31,7 @@ class Renamer{
         }
 
 
-        console.log(aMatched);
+        // console.log(aMatched);
 
         const sNewName = 'IMG_' + oStats.birthtime.getFullYear() + sMonth + sDay + '_' + sRand + oFile.ext
 

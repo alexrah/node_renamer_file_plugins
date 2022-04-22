@@ -1,5 +1,5 @@
 // import renamer from "./renamer.mjs";
-import renamer from "./renamerImgRand.mjs";
+import renamer from "./renamerImgKeepId.mjs";
 
 
 const ren =  new renamer();
