@@ -1,0 +1,16 @@
+{
+  "name": "file_renamer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testRenamerImg": "node testRenamerImg.mjs",
+    "testRenamerPodcast": "node testRenamerPodcast.mjs",
+    "testRenamerImg": "node testRenamerImg.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^7.5.1"
+  }
+}
